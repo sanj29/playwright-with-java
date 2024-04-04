@@ -25,9 +25,9 @@ public class PlaywrightTestDemo
            // page.pause();
             page.navigate("https://test.cadent.tv/ulp/");
             // page.getByPlaceholder("Enter your email").click();
-            page.getByPlaceholder("Enter your email").fill("s2singh@cadent.tv");
+            page.getByPlaceholder("Enter your email").fill("testuse@gmail.com");
             // page.getByPlaceholder("Enter your email").press("Tab");
-            page.getByPlaceholder("Enter your password").fill("cadent");
+            page.getByPlaceholder("Enter your password").fill("test@123");
             page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Sign In")).click();
             System.out.println("page url:" + page.url());
             System.out.println("page title:" + page.title());
