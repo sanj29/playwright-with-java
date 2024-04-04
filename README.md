@@ -2,9 +2,10 @@
 
 # Selectors in playwright
     - text  page.locator(text=<your test>) or page.locator('yourtext')
+    - CSS selector
     - frame  --> page.frame("name of frame") or page.frameLocator("selector ")
     - selecting element in shadow dom
-    - visible -->	 button:visible oe button >> visible=true
+    - selecting visible element  -->	 button:visible oe button >> visible=true
     - Selecting element that contains other element ---> <tag or class >:has('text or link')
     - Comma n Union (|)
         - xpath union
@@ -15,6 +16,7 @@
     - React Selector
         - page.locator("_react:componentName[followeed by selector]") using using react developer tool.
     - Xpath Selector
+    - id, data-testid, data-test-id, data-test 
 
 # One time login::
     - it has capability to store strore cred in .json file and can it be re-utilized for further login (browserContext is used here)
